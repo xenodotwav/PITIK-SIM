@@ -179,3 +179,14 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# --- PITIK-SIM Project Specific ---
+
+# Ignore generated templates (these can be re-created by the script)
+assets/templates/*.png
+
+# Ignore local test images (prevents cluttering the history with large photos)
+tests/test_images/*.jpg
+
+# OS generated files (common on Mac)
+.DS_Store
