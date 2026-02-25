@@ -1,5 +1,3 @@
-opencv-python-headless  # Computer Vision (Section 3.4.2.2) [cite: 1301]
-numpy                   # Math for grids/arrays
 pillow                  # Image handling for GUI (Section 3.3.3.3.2) [cite: 1266]
 scipy                   # Advanced math (often needed by OpenCV)
 pyserial                # If you need to talk to Arduino (optional but good to have)
